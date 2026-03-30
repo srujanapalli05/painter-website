@@ -1,9 +1,75 @@
 body {
-  font-family: Arial;
-  text-align: center;
-  margin: 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-img {
+/* HERO */
+.hero {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 28px;
+}
+
+.hero p {
+  margin: 10px 0;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
   margin: 10px;
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.whatsapp {
+  background: green;
+}
+
+/* SECTION */
+.section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.light {
+  background: #f4f4f4;
+}
+
+.dark {
+  background: #2c3e50;
+  color: white;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: #eee;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 5px;
 }
